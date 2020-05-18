@@ -37,7 +37,7 @@ class Plugin extends PluginBase
                 return;
             }
 
-            $controller->addJs('/plugins/ompmega/blogauthors/assets/js/debounce.js');
+            $controller->addJs('/plugins/ompmega/blogpreviewdebounce/assets/js/blog-preview-debounce.js');
         });
     }
 }
